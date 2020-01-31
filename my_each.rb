@@ -4,8 +4,9 @@ def my_each(array) # put argument(s) here
   collection = []
   
   while i < array.length
-    collection << yield(array[i])
+    yield(array[i])
     i += 1
   end
-  return array
+  return array #while loop will always return nil
+  #use collection to 
 end
