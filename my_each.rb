@@ -6,6 +6,6 @@ def my_each(array) # put argument(s) here
   while i < array.length
     collection << yield(array[i])
     i += 1
-    return collection
   end
+  return collection
 end
