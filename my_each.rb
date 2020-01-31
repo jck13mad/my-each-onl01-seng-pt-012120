@@ -7,6 +7,6 @@ def my_each(array) # put argument(s) here
     yield(array[i])
     i += 1
   end
-  return array #while loop will always return nil
-  #use collection to 
+  return array 
+  #while loop will always return nil
 end
